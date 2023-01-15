@@ -7,8 +7,8 @@ export default function MyInfo(){
             
             <h1>Sean Cerneskie</h1> 
             <p> Frontend Dev</p>
-            <btn>Contact me!</btn>
-            <btn>LinkedIn</btn>
+            <button>Contact me!</button>
+            <button>LinkedIn</button>
         </div>
     )
 }
