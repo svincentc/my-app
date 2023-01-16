@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-size: medium;
+}
+
+
+
+.img{
+    width: 317px;
+    height: 317px;
+    border-radius: 12px;
+}
+
+.whiteTxt{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.jobTitle{
+    color: #F3BF99;
+    margin: -10px auto 10px auto;
+}
+
+.contactMe{
+    background-color: white;
+    width: 115px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.linkedInBtn{
+    background-color: #5093E2;
+    color: white;
+    width: 115px;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 18px;
+    letter-spacing: .7px;
+}
+
+.linkedInBtn:hover{
+    cursor: pointer;
+}
+
+.linkedInBtn:active{
+    opacity: 70%;
+}
+
+.LinkedIn{
+    vertical-align: middle;
+    fill: white;
+    margin-right: 5px;
+}
+
+.btnContainer{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
