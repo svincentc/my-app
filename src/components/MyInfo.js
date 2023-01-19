@@ -6,7 +6,7 @@ import Email from '../email.svg'
 
 export default function MyInfo(){
     return(
-        <div>
+        <div className={MyInfoCSS.myInfoContainer}>
             <img src={Simon} className={MyInfoCSS.img} alt='Simon the Labradoodle.'></img>
             <div>
                 <h1 className={MyInfoCSS.whiteTxt}>Sean Cerneskie</h1> 

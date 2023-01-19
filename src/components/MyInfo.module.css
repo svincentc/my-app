@@ -2,6 +2,14 @@ body{
     text-align: center;
 }
 
+.myInfoContainer{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+
 h1{
     font-size: medium;
 }
@@ -9,9 +17,9 @@ h1{
 
 
 .img{
-    width: 317px;
-    height: 317px;
-    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
 }
 
 .whiteTxt{
@@ -26,19 +34,20 @@ h1{
 
 .contactMe{
     background-color: white;
-    width: 10rem;
+    width: 7rem;
     border: none;
     border-radius: 3px;
-    padding: .8rem;
+    padding: 3px 5px;
 }
 
 .linkedInBtn{
     background-color: #5093E2;
     color: white;
-    width: 10rem;
+    width: 7rem;
     border: none;
     border-radius: 3px;
-    padding: 7px;
+    justify-content: space-around;
+    padding: 3px 5px;
     letter-spacing: .7px;
 }
 
@@ -57,8 +66,8 @@ h1{
 }
 
 .btnContainer{
-    margin: auto;
     display: flex;
+    flex-shrink: 1;
     justify-content: space-around;
-    align-content: space-around;
+    width: 100%;
 }
